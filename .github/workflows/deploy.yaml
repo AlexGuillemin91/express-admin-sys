@@ -16,7 +16,7 @@ jobs:
           
           script: |
             cd express-website
-            git pull git@github.com:AlexGuillemin91/express-admin-sys.git
+            git pull origin main
             pm2 reload index.js
             exho "Deploy ok"
             
